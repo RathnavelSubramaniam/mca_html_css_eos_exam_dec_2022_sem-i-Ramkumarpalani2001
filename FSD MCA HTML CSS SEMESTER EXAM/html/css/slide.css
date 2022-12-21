@@ -1,0 +1,54 @@
+#carouselExampleInterval{
+	max-width: 500px;
+	margin: auto;
+  }
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    border:2px solid black ;
+    box-sizing: border-box;
+    background-image: -webkit-linear-gradient(45deg, gray,white,bisque);
+
+}
+header h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style:oblique;
+    font-size: 40px;
+    color: darkolivegreen;
+    text-align: center;
+}
+header h3{
+    color: chocolate;
+    text-align:start;
+    text-align: center;
+    font-size: 30px;
+}
+.navlist p{
+    background-image: -webkit-linear-gradient(45deg,red,blue,green,gray);
+    background-image: -o-linear-gradient(45deg,red,blue,green,gray);
+    background-image: -moz-linear-gradient(45deg,red,blue,green,gray);
+    background-image: linear-gradient(45deg,red,blue,green,gray);
+margin-top: -.5%;
+padding: 2%;  
+}
+.navlist a{
+    display: inline;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 6%;    
+}
+.navlist a:hover{
+    color: burlywood;
+}
+footer{
+    border: 2px solid black;
+    box-sizing: border;
+    background-image: -webkit-linear-gradient(45deg, gray,white,bisque);
+    text-align: center;
+}
+
+
+
+ 
